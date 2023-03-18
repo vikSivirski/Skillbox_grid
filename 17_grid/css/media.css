@@ -1,0 +1,406 @@
+@media (max-width: 1200px) {
+  .about__descr {
+    margin-bottom: 20px;
+  }
+
+  .about__list-text {
+    padding-left: 0;
+    padding-top: 95px;
+    background-position: top left;
+  }
+}
+
+@media (max-width: 991px) {
+  .hero__title {
+    margin: 0;
+    margin-bottom: 16px;
+    font-weight: var(--bold);
+    font-size: 50px;
+    line-height: 100%;
+    color: var(--white);
+  }
+
+  .hero__img-wrap {
+    padding-bottom: 40px;
+  }
+}
+
+@media (max-width: 768px) {
+  /* hero */
+
+  .hero__content {
+    padding-bottom: 135px;
+  }
+
+  .hero__text {
+    margin: 0;
+    margin-bottom: 60px;
+    font-weight: var(--regular);
+    font-size: 18px;
+    line-height: 150%;
+    color: var(--white);
+  }
+
+  /* about */
+
+  .about {
+    padding-top: 80px;
+    padding-bottom: 60px;
+  }
+
+  .about__img {
+    height: calc(309 / 635 * 100%);
+  }
+
+  /*teachers*/
+
+  .teachers {
+    padding: 74px 0 24px 0;
+  }
+
+  .teachers__photo {
+    padding-bottom: 25px;
+  }
+
+  /*courses*/
+
+  .courses {
+    padding-bottom: 48px;
+  }
+
+  .courses__item {
+    min-height: 556px;
+    margin-bottom: 30px;
+  }
+
+  .courses__time {
+    right: 10px;
+  }
+
+  .courses__item-content--adaptive1 {
+    background-image: url("../img/cinema-768.png");
+  }
+
+  .courses__item-content--adaptive2 {
+    background-image: url("../img/blender-768.png");
+  }
+
+  .courses__item-content--adaptive3 {
+    background-image: url("../img/3ds-max-768.png");
+  }
+
+  .courses__item-content--adaptive4 {
+    background-image: url("../img/zbrush-768.png");
+  }
+
+  .courses__btn {
+    padding: 20px 55px;
+  }
+}
+
+@media (max-width: 767px) {
+  .header__container {
+    flex-direction: column;
+    justify-content: center;
+    padding: 28px 0;
+  }
+
+  .logo {
+    margin-bottom: 30px;
+  }
+
+  .hero__img-wrap {
+    display: none;
+  }
+}
+
+
+@media (max-width: 576px) {
+
+  /*hero*/
+
+  .hero__content {
+    padding-top: 77px;
+    padding-bottom: 135px;
+  }
+
+  /*about*/
+
+  .about {
+    padding-top: 80px;
+    padding-bottom: 42px;
+  }
+
+  .about__descr {
+    align-items: flex-start;
+  }
+
+  .about__img-wrap {
+    display: flex;
+    align-items: flex-start;
+  }
+
+  .about__list-text {
+    padding-left: 0;
+    padding-top: 95px;
+    background-position:left 5px;
+  }
+
+  /*teacers*/
+
+  .teachers {
+    padding: 74px 0 48px 0;
+  }
+
+  .teachers__photo {
+    min-height: 205px;
+  }
+
+  /*courses*/
+
+  .courses  {
+    padding-bottom: 50px;
+  }
+
+  .courses__item-content--adaptive1 {
+    background-image: url("../img/cinema-576.png");
+  }
+
+  .courses__item-content--adaptive2 {
+    background-image: url("../img/blender-576.png");
+  }
+
+  .courses__item-content--adaptive3 {
+    background-image: url("../img/3ds-max-576.png");
+  }
+
+  .courses__item-content--adaptive4 {
+    background-image: url("../img/zbrush-576.png");
+  }
+
+  .courses__item-title {
+    line-height: 125%;
+  }
+
+  .courses__item-content {
+    padding: 210px 20px 30px 30px;
+  }
+
+  .courses__item-text {
+    margin-bottom: 35px;
+  }
+
+  .courses__btn {
+    padding: 20px 48px;
+  }
+}
+
+@media (max-width: 575px) {
+  .hamburger {
+    display: inline-block;
+  }
+
+  .header__container {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .logo {
+    width: 72px;
+    height: 16px;
+    margin-bottom: 0;
+  }
+
+  .header__nav {
+    visibility: hidden;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    padding: 76px 15px 0;
+    background-color: var(--blackViolet);
+    transform: translateY(-100%);
+    transition: transform 0.4s ease-in-out, visibility 0.7s ease-in-out;
+  }
+
+  .header__nav--active {
+    visibility: visible;
+    transform: translateY(0);
+  }
+
+  .header__nav .header__list {
+    flex-direction: column;
+  }
+
+  .header__nav .header__list-item {
+    margin-bottom: 56px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+  }
+
+  /*hero*/
+
+  .hero__content {
+    padding-top: 53px;
+    padding-bottom: 50px;
+  }
+
+  .hero__title {
+    margin-bottom: 7px;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 100%;
+  }
+
+  .hero__text {
+    margin-bottom: 44px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 130%;
+  }
+
+  .hero__btn {
+    display: inline-block;
+    padding: 20px 53px;
+    font-weight: var(--bold);
+    font-size: 16px;
+    line-height: 19px;
+    color: var(--white);
+  }
+
+  /*about*/
+
+  .about {
+    padding-top: 50px;
+    padding-bottom: 15px;
+  }
+
+  .about__title {
+    margin: 0;
+    margin-bottom: 4px;
+    max-width: 380px;
+    font-weight: var(--bold);
+    font-size: 20px;
+    line-height: 130%;
+    color: var(--darkViolet);
+  }
+
+  .about__img-wrap {
+    display: none;
+  }
+
+  .about__list-text {
+    min-height: 92px;
+    padding-left: 110px;
+    padding-top: 0;
+    padding-bottom: 35px;
+    background-position: left top;
+  }
+
+  /*teachers*/
+
+  .teachers {
+    padding: 50px 0 24px 0;
+  }
+
+  .teachers__title {
+    margin: 0;
+    margin-bottom: 25px;
+    font-size: 20px;
+    line-height: 100%;
+  }
+
+  .teachers__photo {
+    padding-bottom: 25px;
+  }
+
+  /*courses*/
+
+  .courses {
+    padding-top: 45px;
+    padding-bottom: 20px;
+  }
+
+  .courses__title {
+    margin: 0;
+    margin-bottom: 26px;
+    font-weight: var(--bold);
+    font-size: 20px;
+    line-height: 100%;
+  }
+
+  .courses__item {
+    min-height: 653px;
+    margin-bottom: 30px;
+  }
+
+
+  .courses__item-content--adaptive1 {
+    background-image: url("../img/cinema4d.png");
+  }
+
+  .courses__item-content--adaptive2 {
+    background-image: url("../img/blender.png");
+  }
+
+  .courses__item-content--adaptive3 {
+    background-image: url("../img/3ds-max.png");
+  }
+
+  .courses__item-content--adaptive4 {
+    background-image: url("../img/zbrush.png");
+  }
+
+  .courses__item-title {
+    margin: 0;
+    margin-bottom: 10px;
+  }
+
+  .courses__item-text {
+    margin: 0;
+    margin-bottom: 45px;
+    font-weight: var(--regular);
+    font-size: 16px;
+    line-height: 150%;
+    color: var(--gray);
+  }
+
+  .courses__btn {
+    display: block;
+    max-width: 195px;
+    padding: 20px 55px;
+    background-color: var(--violet);
+    font-weight: var(--bold);
+    font-size: 16px;
+    line-height: 19px;
+    color: var(--white);
+    border-radius: 20px;
+  }
+
+}
+
+@media (max-width: 320px) {
+  .courses__item {
+    min-height: 653px;
+    margin-bottom: 30px;
+  }
+
+  .courses__item-content--adaptive1 {
+    background-image: url("../img/cinema-320.png");
+  }
+
+  .courses__item-content--adaptive2 {
+    background-image: url("../img/blender-320.png");
+  }
+
+  .courses__item-content--adaptive3 {
+    background-image: url("../img/3ds-max-320.png");
+  }
+
+  .courses__item-content--adaptive4 {
+    background-image: url("../img/zbrush-320.png");
+  }
+}

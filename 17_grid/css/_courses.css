@@ -1,0 +1,107 @@
+.courses {
+  padding-top: 75px;
+  padding-bottom: 48px;
+}
+
+.courses__title {
+  margin: 0;
+  margin-bottom: 24px;
+  font-weight: var(--bold);
+  font-size: 40px;
+  line-height: 100%;
+}
+
+.courses__item {
+  min-height: 480px;
+  margin-bottom: 30px;
+}
+
+.courses__item-content {
+  position: relative;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 210px 30px 30px 30px;
+  background-color: #EDF0F9;
+  border-radius: 20px;
+  background-repeat: no-repeat;
+}
+
+.courses__time {
+  position: absolute;
+  display: flex;
+  top: 10px;
+  right: 4px;
+}
+
+.clock-svg {
+  margin-right: 5px;
+}
+
+.courses__time-text {
+  align-self: center;
+  flex-shrink: 0;
+  margin: 0;
+  font-weight: var(--regular);
+  font-size: 16px;
+  line-height: 19px;
+  color: var(--white);
+}
+
+.courses__item-content--adaptive1 {
+  background-image: url("../img/cinema4d.png");
+}
+
+.courses__item-content--adaptive2 {
+  background-image: url("../img/blender.png");
+}
+
+.courses__item-content--adaptive3 {
+  background-image: url("../img/3ds-max.png");
+}
+
+.courses__item-content--adaptive4 {
+  background-image: url("../img/zbrush.png");
+}
+
+.courses__item-title {
+  margin: 0;
+  margin-bottom: 8px;
+  font-weight: var(--bold);
+  font-size: 18px;
+  line-height: 150%;
+  color: var(--backgrondScillbox);
+}
+
+.courses__item-text {
+  margin: 0;
+  margin-bottom: 5px;
+  font-weight: var(--regular);
+  font-size: 16px;
+  line-height: 150%;
+  color: var(--gray);
+}
+
+.courses__btn {
+  display: inline-block;
+  padding: 20px 59px;
+  background-color: var(--violet);
+  font-weight: var(--bold);
+  font-size: 16px;
+  line-height: 19px;
+  color: var(--white);
+  border-radius: 20px;
+  opacity: 1;
+  transition: background-color 0.2s ease-in-out, opacity 0.2s ease-in-out;
+}
+
+.courses__btn:hover {
+  background-color: black;
+}
+
+.courses__btn:focus-visible {
+  background-color: black;
+}
+
+.courses__btn:active {
+  opacity: 0.85;
+}

@@ -1,0 +1,39 @@
+.teachers {
+  padding: 74px 0 48px 0;
+  background-color: var(--backgrondScillbox);
+}
+
+.teachers__item {
+  display: block;
+  margin-bottom: 24px;
+}
+
+.teachers__photo {
+  padding-bottom: 25px;
+}
+
+.teachers__title {
+  margin: 0;
+  margin-bottom: 25px;
+  font-weight: var(--bold);
+  font-size: 40px;
+  line-height: 100%;
+  color: var(--white);
+}
+
+.teachers__name {
+  margin: 0;
+  margin-bottom: 8px;
+  font-weight: var(--bold);
+  font-size: 18px;
+  line-height: 150%;
+  color: var(--white);
+}
+
+.teachers__descr {
+  margin: 0;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: var(--violetGray);
+}

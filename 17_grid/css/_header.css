@@ -1,0 +1,42 @@
+.header {
+  background-color: var(--violet);
+}
+
+.header__container {
+  justify-content: space-between;
+  align-items: center;
+  padding: 28px 0;
+}
+
+.header__list-item {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: var(--white);
+  outline: none;
+  opacity: 1;
+  transition: opacity 0.2s ease-in-out, color 0.2s ease-in-out;
+}
+
+.header__list-item:hover {
+  opacity: 0.75;
+}
+
+.header__list-item:focus-visible {
+  outline: 1px solid var(--white);
+  outline-offset: 5px;
+}
+
+.header__list-item:active {
+  color: black;
+}
+
+.header__list-item:not(:last-child) {
+  margin-right: 57px;
+}
+
+
+
+
+
+
